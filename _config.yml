@@ -1,0 +1,4 @@
+title_tag_text: Samitha Liyanage - Mom and a Software Engineer
+h1_tag_text: Samitha.
+
+exclude: ["Procfile", "Gruntfile.js", "README.md", "package.json", "CNAME", "node_modules"]
