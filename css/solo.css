@@ -34,7 +34,7 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
-  line-height: 1;
+  line-height: 1.2;
   color: #111;
   text-rendering: optimizeLegibility;
 }
@@ -130,12 +130,14 @@ td, th {
 
 pre, code {
   font-family: inherit;
-  background-color: #eee;
 }
 
 pre {
   padding: .5rem 1rem;
   font-size: 0.8rem;
+  margin-left: -80px;
+  margin-right: -80px;
+  border-radius: 4px;
 }
 
 code {
@@ -151,3 +153,19 @@ pre > code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+
+.post h1 { font-size: 2em; margin-bottom: 0.4em; margin-top: 0.4em; }
+.post h2 { font-size: 1.5em; margin-bottom: 0.3em; margin-top: 1em; }
+.post h3 { font-size: 1.17em; margin-bottom: 0.3em; margin-top: 1em; }
+.post h4 { font-size: 1.12em; margin-bottom: 0.3em; margin-top: 1em;}
+.post h5 { font-size: .83em; margin-bottom: 0.3em; margin-top: 1em; }
+.post h6 { font-size: .75em; margin-bottom: 0.3em; margin-top: 1em;}
+
+.post_date {margin-top: -0.5em; font-style: italic; color: #999; }
+
+.post_content img {
+  margin-right: -80px;
+  margin-left: -80px;
+}
+
